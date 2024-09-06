@@ -1,0 +1,27 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "predeploy": "npm run generate",
+    "deploy": "gh-pages -d dist",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@nuxtjs/tailwindcss": "^6.12.1",
+    "@pinia/nuxt": "^0.5.4",
+    "axios": "^1.7.7",
+    "nuxt": "^3.13.0",
+    "pinia": "^2.2.2",
+    "sass": "^1.77.8",
+    "sass-loader": "^16.0.1",
+    "vue": "latest"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
+  }
+}
