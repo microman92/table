@@ -22,7 +22,7 @@
                 </tr>
             </thead>
             <tbody>
-                <tr v-for="value in paginatedPost" :key="value.userId" class="h-16">
+                <tr v-for="value in paginatedPost" :key="value.id" class="h-16">
                     <td class="px-2.5 text-left"> {{ value.userId }} </td>
                     <td class="px-2.5 text-left"> {{ value.id }} </td>
                     <td class="px-2.5 text-left"> {{ value.title }} </td>
